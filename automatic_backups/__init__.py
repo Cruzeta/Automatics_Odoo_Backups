@@ -2,6 +2,7 @@ import requests
 import datetime
 import os
 from config import load_env
+import smbprotocol.connection 
 
 load_env('.env')
 
