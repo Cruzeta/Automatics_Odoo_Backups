@@ -2,7 +2,7 @@ import requests
 import datetime
 import os
 from config import load_env
-import smbprotocol.connection 
+import smbprotocol.connection
 
 load_env('.env')
 
@@ -29,4 +29,3 @@ if response.status_code == 200:
 # Print the URL and response status code for debugging purposes
 print(os.environ['URL'])
 print(response.status_code)
-                        
